@@ -12,4 +12,8 @@ public class Account {
         this.name = name;
         this.document = document;
     }
+
+    void printDataCar(){
+        System.out.println("License: " + license + " Name Driver: " + driver.name);
+    };
 }
